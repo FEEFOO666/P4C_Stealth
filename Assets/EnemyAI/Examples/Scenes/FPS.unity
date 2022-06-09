@@ -5566,9 +5566,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: gun
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 15b0c3036cdfde443a14fa92eee14154, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 15b0c3036cdfde443a14fa92eee14154, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 15b0c3036cdfde443a14fa92eee14154, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9742,15 +9746,15 @@ PrefabInstance:
       objectReference: {fileID: 569025035}
     - target: {fileID: 5795597572232699587, guid: 17a5fd789535dc94b80bf78ffb0ea097, type: 3}
       propertyPath: viewAngle
-      value: 20
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 5795597572232699587, guid: 17a5fd789535dc94b80bf78ffb0ea097, type: 3}
       propertyPath: viewRadius
-      value: 6.9
+      value: 11.1
       objectReference: {fileID: 0}
     - target: {fileID: 5795597572232699587, guid: 17a5fd789535dc94b80bf78ffb0ea097, type: 3}
       propertyPath: perceptionRadius
-      value: 3.6
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 5795597572232699587, guid: 17a5fd789535dc94b80bf78ffb0ea097, type: 3}
       propertyPath: patrolWayPoints.Array.size
@@ -13333,6 +13337,63 @@ MonoBehaviour:
   shotMask:
     serializedVersion: 2
     m_Bits: 1
+--- !u!1001 &2020789888
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2008717212}
+    m_Modifications:
+    - target: {fileID: 1137410076663698, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_Name
+      value: kukri_Normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628900024973940, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628900024973940, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628900024973940, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.194
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628900024973940, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628900024973940, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.89594495
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628900024973940, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2551506
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628900024973940, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.099578686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628900024973940, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.34966403
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628900024973940, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -31.792
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628900024973940, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628900024973940, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -42.639
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c48c9baca6412e14989783c337f59eb5, type: 3}
 --- !u!4 &2026718157 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 428906, guid: a5cd29a93d7ae2d488fa0376d0d08462, type: 3}
