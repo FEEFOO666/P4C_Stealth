@@ -12,8 +12,16 @@ public class MeleeDamage : MonoBehaviour
     public Transform meleeOrigin;  
     public LayerMask shotMask;
 
-    // Update is called once per frame
-    void Update()
+    public AudioSource meleeAudio;
+
+    void Start()
+    {
+        meleeAudio = GetComponent<AudioSource>();
+       
+    }
+
+        // Update is called once per frame
+        void Update()
     {
         if (Input.GetMouseButton(0))
         {
@@ -24,6 +32,8 @@ public class MeleeDamage : MonoBehaviour
         {
             MeleeHit();
             meleeDamage = 0;
+
+            meleeAudio.Play(0);
         }
     }
 
